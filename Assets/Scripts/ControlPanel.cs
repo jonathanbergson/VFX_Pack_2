@@ -9,7 +9,7 @@ public class ControlPanel : MonoBehaviour
     private void Start()
     {
         HiddenAllVisualEffects();
-        ShowVisualEffect(0);
+        ShowVisualEffect(1);
 
         AddClickListenerOnButtons();
         DefineLabelsOnButtons();
